@@ -1,0 +1,7 @@
+nome = str(input("Digite o nome do vendedor: "))
+carros = int(input("Digite a quantidade de carros vendidos pelo vendedor: "))
+vendas = float(input("Digite o valor total de suas vendas: "))
+print(f"nome do vendedor: {nome}")
+print(f"quantidade de carros vendidos: {carros}")
+print(f"valor total das vendas: {vendas}")
+print(f"O vendedor {nome} receberá um salário de R${2500 + (200 * carros) + ((vendas / 100) * 2)}")
